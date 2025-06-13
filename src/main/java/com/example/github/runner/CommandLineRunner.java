@@ -7,8 +7,8 @@ public class CommandLineRunner implements org.springframework.boot.CommandLineRu
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("WELCOME TO SPRING BOOT");
-		System.out.println("WELCOME TO SPRING BOOT");
+	int a = 10;
+		System.out.println("WELCOME TO SPRING BOOT"+a);
 	}
 
 }
